@@ -18,7 +18,16 @@ Antes de começar, certifique-se de ter o seguinte software instalado em sua má
     ```bash
     npm install
     ```
+    
+    ```bash
+    npm install cypress --save-dev
+    ```
+    
+    ```bash
+    npm install --save-dev cypress-cucumber-preprocessor
+    ```
 
+    
 ## Configuração
 
 O arquivo de configuração principal do Cypress é o `cypress.config.js`. Neste projeto, ele está configurado para:
